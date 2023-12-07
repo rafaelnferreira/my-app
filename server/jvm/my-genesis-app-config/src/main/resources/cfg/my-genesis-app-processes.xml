@@ -11,5 +11,17 @@
 !
 -->
 <processes>
+
+    <process name="MY_GENESIS_APP_DATASERVER">
+        <groupId>MY_GENESIS_APP</groupId>
+        <start>true</start>
+        <options>-Xmx1024m -DXSD_VALIDATE=false</options>
+        <module>genesis-pal-dataserver</module>
+        <package>global.genesis.dataserver.pal</package>
+        <script>my-genesis-app-dataserver.kts</script>
+        <description>Displays real-time details</description>
+        <language>pal</language>
+        <loggingLevel>DEBUG,DATADUMP_ON</loggingLevel>
+    </process>
     
 </processes>

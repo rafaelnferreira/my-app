@@ -11,5 +11,7 @@
 !
 -->
 <configuration>
+
+    <service host="localhost" name="MY_GENESIS_APP_DATASERVER" port="11000"/>
     
 </configuration>

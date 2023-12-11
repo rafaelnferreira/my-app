@@ -76,7 +76,7 @@
   "dependencies": {
     "@genesislcap/foundation-comms": "14.122.0",
     "@genesislcap/foundation-header": "14.122.0",
-    "@genesislcap/foundation-reporting": "7.1.0-PBC-RC12",
+    "@genesislcap/pbc-reporting": "1.0.0",
     "@genesislcap/foundation-entity-management": "14.122.0",
     "@genesislcap/foundation-forms": "14.122.0",
     "@genesislcap/foundation-inbox": "14.122.0",

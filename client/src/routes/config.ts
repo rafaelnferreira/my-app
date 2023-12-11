@@ -16,7 +16,7 @@ import { Route, RouterConfiguration } from '@microsoft/fast-router';
 import { defaultLayout, loginLayout } from '../layouts';
 import { Home } from './home/home';
 import { NotFound } from './not-found/not-found';
-import { Reporting } from '@genesislcap/foundation-reporting';
+import { Reporting } from '@genesislcap/pbc-reporting';
 
 // eslint-disable-next-line
 declare var ENABLE_SSO: string;
